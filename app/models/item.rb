@@ -1,5 +1,5 @@
 class Item < ActiveRecord::Base
   def self.test
-    puts "test2"
+    puts "test3"
   end
 end
