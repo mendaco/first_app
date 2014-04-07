@@ -21,5 +21,8 @@ class Item < ActiveRecord::Base
 
   def self.stash_test2
     puts "stash test 2"
+
+  def self.test5
+    puts "test8"
   end
 end
