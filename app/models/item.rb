@@ -8,6 +8,6 @@ class Item < ActiveRecord::Base
   end
 
   def self.test3
-    puts "test8"
+    puts "test6"
   end
 end
