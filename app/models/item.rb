@@ -10,4 +10,8 @@ class Item < ActiveRecord::Base
   def self.test3
     puts "test6"
   end
+
+  def self.stash_test
+    puts "stash test"
+  end
 end
