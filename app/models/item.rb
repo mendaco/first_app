@@ -15,6 +15,10 @@ class Item < ActiveRecord::Base
     puts "test7"
   end
 
+  def self.stash_test
+    puts "stash test"
+  end
+
   def self.stash_test2
     puts "stash test 2"
   end
