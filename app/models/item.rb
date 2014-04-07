@@ -4,7 +4,7 @@ class Item < ActiveRecord::Base
   end
 
   def self.test2
-    puts "test7"
+    puts "test5"
   end
 
   def self.test3
